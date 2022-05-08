@@ -61,14 +61,14 @@ object sparkquery {
             }
 
     //Start of the Query 
-    def displayall(){
+    def displayall(): Unit = {
     println("Displaying Total Number of Orders: ")
     val result = spark.sql("""select count(*)
                                 from vanquish""")
     //result.printSchema()
     result.show()}
 
-    def totalSoldByProduct(){
+    def totalSoldByProduct(): Unit = {
     println("Total Sales By Product Name")
     val result2 = spark.sql("""SELECT product_name, price, sum(qty) as total_unit_sold, ROUND((sum(qty)*price), 2) as revenue
                                 FROM vanquish
@@ -77,7 +77,7 @@ object sparkquery {
     //result2.printSchema()
     result2.show()}
 
-    def topBuyerCountries(){
+    def topBuyerCountries(): Unit ={
     println("Top Buyers By Number Of Units")
     val result3 = spark.sql("""select customer_name, country, sum(qty) as total_units
                                 from vanquish
@@ -88,7 +88,7 @@ object sparkquery {
     //result3.printSchema()
     result3.show()}
 
-    def totalNumCxByCountry(){
+    def totalNumCxByCountry(): Unit ={
     println("Total Number of Unique Customers By Country")
     val result4 = spark.sql("""select country, count(distinct(customer_id)) as total_users
                                 from vanquish
@@ -97,7 +97,7 @@ object sparkquery {
     //result4.printSchema()
     result4.show()} 
     
-    def topPayment(){
+    def topPayment(): Unit ={
     println("Most Popular Payment Type")
     val result5 = spark.sql("""select payment_type, count(payment_type) as frequency
                                 from vanquish
@@ -106,7 +106,7 @@ object sparkquery {
     //result5.printSchema()
     result5.show()}
     
-    def totalSaleByCountry(){
+    def totalSaleByCountry(): Unit ={
     println("Total Number Of Sales By Country")
     val result6 = spark.sql("""SELECT country, SUM(total_sales)  as total_sales
                                 FROM (
@@ -119,7 +119,7 @@ object sparkquery {
     //result6.printSchema()
     result6.show()}
 
-    def totalSalesWithYear(){
+    def totalSalesWithYear(): Unit ={
     println("Total Sales By Website")
     val result7 = spark.sql("""SELECT ecommerce_website_name, SUM(total_sales)  as total_sales
                                 FROM (
