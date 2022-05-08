@@ -1,0 +1,34 @@
+2022.05.05 14:17:54 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\ferde\project2\.metals\lsp.trace.json or C:\Users\ferde\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.05 14:17:54 INFO  logging to file C:\Users\ferde\project2\.metals\metals.log
+2022.05.05 14:17:54 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\ferde\project2' for client Visual Studio Code 1.66.2.
+2022.05.05 14:17:55 INFO  time: initialize in 0.82s
+2022.05.05 14:17:55 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.05 14:17:55 WARN  Build server is not auto-connectable.
+2022.05.05 14:17:56 WARN  no build target for: C:\Users\ferde\project2\src\main\scala\Alchemy\Project2.scala
+2022.05.05 14:17:57 INFO  no build target found for C:\Users\ferde\project2\src\main\scala\Alchemy\Project2.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.05 14:17:58 INFO  time: code lens generation in 1.91s
+2022.05.05 15:31:37 INFO  shutting down Metals
+2022.05.06 11:06:15 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\ferde\project2\.metals\lsp.trace.json or C:\Users\ferde\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.06 11:06:16 INFO  logging to file C:\Users\ferde\project2\.metals\metals.log
+2022.05.06 11:06:16 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\ferde\project2' for client Visual Studio Code 1.67.0.
+2022.05.06 11:06:17 INFO  time: initialize in 0.8s
+2022.05.06 11:06:17 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.06 11:06:17 WARN  Build server is not auto-connectable.
+2022.05.06 11:06:17 INFO  skipping build import with status 'Requested'
+2022.05.06 11:06:17 WARN  no build target for: C:\Users\ferde\project2\src\main\scala\consumer\sparkquery.scala
+2022.05.06 11:06:18 INFO  no build target found for C:\Users\ferde\project2\src\main\scala\consumer\sparkquery.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.06 11:06:19 INFO  time: code lens generation in 1.94s
+2022.05.06 11:58:10 WARN  no build target for: C:\Users\ferde\project2\src\main\scala\Alchemy\Project2.scala
+2022.05.06 11:58:11 WARN  no build target for: C:\Users\ferde\project2\src\main\scala\consumer\sparkquery.scala
+2022.05.06 17:02:13 INFO  shutting down Metals
+2022.05.07 18:43:31 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\ferde\project2\.metals\lsp.trace.json or C:\Users\ferde\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.07 18:43:31 INFO  logging to file C:\Users\ferde\project2\.metals\metals.log
+2022.05.07 18:43:31 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\ferde\project2' for client Visual Studio Code 1.67.0.
+2022.05.07 18:43:32 INFO  time: initialize in 0.74s
+2022.05.07 18:43:32 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.07 18:43:32 WARN  Build server is not auto-connectable.
+2022.05.07 18:43:33 INFO  skipping build import with status 'Requested'
+2022.05.07 18:43:33 WARN  no build target for: C:\Users\ferde\project2\build.sbt
+2022.05.07 18:43:34 INFO  no build target found for C:\Users\ferde\project2\build.sbt. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.07 18:43:36 INFO  time: code lens generation in 2.76s
+2022.05.07 19:02:19 INFO  shutting down Metals
